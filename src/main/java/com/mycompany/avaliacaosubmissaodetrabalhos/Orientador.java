@@ -13,7 +13,7 @@ public class Orientador {
         setNome(usuario.getNome());
         setEmail(usuario.getEmail());
     }
-
+    
     private void setNome(String nome) {
         if (nome != null && !nome.isEmpty()) {
             this.nome = nome;
